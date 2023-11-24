@@ -1,0 +1,45 @@
+name: crop_pretection
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  pinput: ^3.0.1
+  onboarding_animation: ^0.0.3
+  firebase_auth: ^4.12.1
+  firebase_core: ^2.21.0
+  firebase_storage: ^11.4.1
+  cloud_firestore: ^4.12.2
+  stylish_bottom_bar: ^1.0.3
+  shared_preferences: ^2.2.2
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  weather: ^3.1.1
+  carousel_slider: ^4.2.1
+  flutter_inset_box_shadow: ^1.0.8
+  iconify_flutter: ^0.0.5
+  image_picker: ^1.0.4
+  dropdown_button2: ^2.3.9
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
